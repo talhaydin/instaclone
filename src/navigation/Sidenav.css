@@ -6,6 +6,18 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 900px) {
+  .sidenav {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidenav__more {
+    display: none;
+  }
+}
+
 .sidenav__logo {
   width: 120px;
   margin: 25px;

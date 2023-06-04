@@ -3,6 +3,12 @@
   margin: 30px 40px 50px 40px;
 }
 
+@media screen and (max-width: 900px) {
+  .post {
+    width: 80vw;
+  }
+}
+
 .post__header {
   display: flex;
   justify-content: space-between;
